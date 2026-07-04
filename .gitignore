@@ -1,0 +1,9 @@
+venv2/
+logs/
+target/
+dbt_packages/
+*.csv
+*.zip
+.DS_Store
+SQL/DBT_Token
+SQL/DBT_Token
