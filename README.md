@@ -60,3 +60,6 @@ Amazon-Sales-Snowflake-dbt/
 - dbt custom schema macro needed to avoid `<target_schema>_<custom_schema>` naming
 - Snowflake MFA blocks password auth for dbt; key-pair auth (RSA + JWT) required
 - Semantic Views enable no-code natural language querying without external LLM API calls
+
+## Related project
+[Talk2SQL](https://github.com/Sushil-Deore/Talk2SQL) is a local-LLM alternative to the Cortex Analyst step here — same underlying data, swaps the managed cloud service for Llama 3.1 running locally via Ollama.
