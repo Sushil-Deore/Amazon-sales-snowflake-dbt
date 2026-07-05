@@ -15,6 +15,7 @@ End-to-end data pipeline: raw ingestion, transformation, and natural-language an
 5. Cortex Analyst answers plain-English questions against the semantic view
 
 ## Project structure
+```
 Amazon-Sales-Snowflake-dbt/
 ├── SQL/
 │   ├── 01_create_warehouse.sql
@@ -45,7 +46,7 @@ Amazon-Sales-Snowflake-dbt/
 ├── Amazon Sale Report.csv
 ├── LICENSE
 └── README.md
-
+```
 ## Setup
 1. Create Snowflake warehouse, database, schemas (`sql/01-05`)
 2. Load CSV into raw table (`sql/06-08`)
