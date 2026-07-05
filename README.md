@@ -63,3 +63,5 @@ Amazon-Sales-Snowflake-dbt/
 
 ## Related project
 [Talk2SQL](https://github.com/Sushil-Deore/Talk2SQL) is a local-LLM alternative to the Cortex Analyst step here — same underlying data, swaps the managed cloud service for Llama 3.1 running locally via Ollama.
+
+Built with assistance from Claude (Anthropic).
