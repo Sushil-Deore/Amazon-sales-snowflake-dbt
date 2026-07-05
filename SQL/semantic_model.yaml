@@ -1,0 +1,31 @@
+name: amazon_sales_model
+tables:
+  - name: mart_amazon_sales
+    base_table:
+      database: my_db
+      schema: analytics
+      table: mart_amazon_sales
+    dimensions:
+      - name: order_id
+        expr: order_id
+        data_type: text
+      - name: category
+        expr: category
+        data_type: text
+      - name: ship_state
+        expr: ship_state
+        data_type: text
+      - name: status
+        expr: status
+        data_type: text
+    time_dimensions:
+      - name: order_date
+        expr: order_date
+        data_type: date
+    facts:
+      - name: qty
+        expr: qty
+        data_type: number
+      - name: amount
+        expr: amount
+        data_type: number
